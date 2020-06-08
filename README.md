@@ -21,6 +21,7 @@ available though https://github.com/jseutter/ofxparse) and
 Arrow (https://arrow.readthedocs.io/en/latest/) libraries, and is built on Python 2.7.
 
 It assumes a file structure like:
+```
 working dir/
     MAY_2020/
         your_checking/
@@ -29,7 +30,7 @@ working dir/
             bk_download.csv
     APRIL_2020/
     account_maps.csv
-
+```
 Right now, it dumps everything out to an ofx file named testing.ofx in the working directory.
 To support my workflow, you can pass it one parameter, "-d MAY_2020" or "-d APRIL_2020" or whatever the heck you want
 to name your monthly/whatever period of directories, to tell it what directory to look in.
